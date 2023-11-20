@@ -1,20 +1,21 @@
 * {
-    maring: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+/* .container{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 .movie-card{
     text-align: center;
 }
 
 .movie-title {
+    margin-top: 2rem;
     color: rgb(93, 0, 0);
 }
 
@@ -31,7 +32,7 @@
 .movie-poster-container img{
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .movie-info-quote{
@@ -52,4 +53,44 @@ ul li a {
 .footer{
     margin-top: 2rem;
     text-align: center;
+}
+
+.container {
+    margin: 2rem auto;
+    width: 75%;
+    text-align: center;
+}
+
+
+.movie-data-list {
+    list-style: none;
+    line-height: 2rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+img {
+    margin-top: 2rem;
+    width: 300px;
+    border-radius: 5px;
+}
+
+form {
+    padding: 2rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+input {
+    padding: .2rem;
+}
+
+button {
+    padding: .2rem;
+}
+
+.back-button{
+
 }
