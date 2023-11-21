@@ -115,6 +115,7 @@ app.post('/getmovie', (req, res) => {
                         source: 'getmovie'
                     });
                 }
+                
 
 				let dataToSend = movieToSearch;
 				dataToSend = `${movie.Title} was released in the year ${movie.Year}. It is directed by ${
