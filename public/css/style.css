@@ -95,3 +95,9 @@ button {
     margin-top: 1rem;
     padding: 1rem;
 }
+
+.chat-container{
+    position:relative;
+    right: 0;
+    bottom: 0;
+}
