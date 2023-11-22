@@ -94,10 +94,13 @@ button {
 .back-button {
     margin-top: 1rem;
     padding: 1rem;
+    text-decoration: none;
+    color: brown;
+    font-weight: bolder;
 }
 
-.chat-container{
-    position:relative;
-    right: 0;
+.chat-container {
+    position: fixed;
     bottom: 0;
+    right: 0;
 }
