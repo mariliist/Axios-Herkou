@@ -10,7 +10,7 @@
     flex-direction: column;
 } */
 
-.movie-card{
+.movie-card {
     text-align: center;
 }
 
@@ -29,13 +29,13 @@
     font-weight: bold;
 }
 
-.movie-poster-container img{
+.movie-poster-container img {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 5px;
 }
 
-.movie-info-quote{
+.movie-info-quote {
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ ul li a {
     color: rgb(93, 0, 0);
 }
 
-.footer{
+.footer {
     margin-top: 2rem;
     text-align: center;
 }
@@ -91,6 +91,7 @@ button {
     padding: .2rem;
 }
 
-.back-button{
-
+.back-button {
+    margin-top: 1rem;
+    padding: 1rem;
 }
